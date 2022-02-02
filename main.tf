@@ -2,6 +2,7 @@ provider "azurerm" {
   features {}
 } 
 
+
 locals {
   fqdns   =[]
 }
