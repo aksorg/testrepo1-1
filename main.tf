@@ -96,6 +96,7 @@ data "azurerm_key_vault_secret" "secretpass" {
 }
 
 
+ 
 
 #Data Source to fetch subnet
 data "azurerm_subnet" "gatewaysubnet" {
