@@ -1,0 +1,10 @@
+site_name: 'Azure-Webapp'
+site_description: 'Main documentation for Azure Webapps'
+
+plugins:
+  - techdocs-core
+
+nav:
+   - Overview: index.md
+   - Pre-requisites: 'pre_requisites.md'
+   - How To Consume: 'how_to_consume.md'

@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Azure-Webapp
+  description: Templates for Creating Webapps on Azure
+  annotations:
+    github.com/project-slug: DigitalInnovation/cloud-platform-automation-assets
+    backstage.io/techdocs-ref: url:https://github.com/DigitalInnovation/cloud-platform-automation-assets/tree/main/azure/webapp
+    github.com/project-readme-path: azure/webapp/Readme.md
+  tags:
+    - arm-templates
+  links:
+    - url: https://github.com/DigitalInnovation/cloud-platform-automation-assets/tree/main/azure/webapp
+      title: GitHub Repo
+      icon: github   
+spec:
+  type: template
+  lifecycle: production
+  owner: cloud-services-and-automation
+  system: cloud-automation-frameworks

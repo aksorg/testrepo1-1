@@ -1,0 +1,7 @@
+application_name         = "test414"
+location                 = "northeurope"
+portfolio                = "Platforms"
+appservice_rg            = "webapptest"
+vnet_name                = "sample-vnet"
+vnet_integration_subnet  = "testsubnt123"
+private_end_point_subnet = "subnt"
