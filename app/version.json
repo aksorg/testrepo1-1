@@ -1,0 +1,21 @@
+{
+    "type" : "webapp",
+    "version" : 1.0,
+    "layers" : [
+        {
+            "name" : "frontendlayer",
+            "modules" : ["module1","module2"],
+            "version" : 1.0
+        },
+        {
+            "name" : "applayer",
+            "modules" : ["module1","module2"],
+            "version" : 1.0
+        },
+        {
+            "name" : "networklayer",
+            "modules" : ["module1","module2"],
+            "version" : 1.0
+        }
+    ]
+}
