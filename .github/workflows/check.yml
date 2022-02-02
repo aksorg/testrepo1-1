@@ -9,7 +9,7 @@ on:
     types:
       - closed
     paths:
-      - '**.js'
+      - '**version.json'
 
 jobs:
   run_if_failure:
