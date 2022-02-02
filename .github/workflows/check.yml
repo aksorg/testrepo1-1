@@ -12,7 +12,7 @@ on:
 
 jobs:
   run_if_failure:
-#     if: ${{ !github.event.client_payload.passed }}
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     steps:
       - env:
