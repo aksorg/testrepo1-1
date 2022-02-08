@@ -1,20 +1,14 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
-# Controls when the workflow will run
 on:
-  pull_request:
-    types:
-      - closed
-    paths:
-      - '**version.json'
+  release:
+    types: [published,created,released]
+    
 
 jobs:
-  run_if_failure:
-#     if: ${{ !github.event.client_payload.passed }}
+  repo_matrix:
     runs-on: ubuntu-latest
+    # outputs:
+    #   nonprod: ${{ steps.set-env.outputs.repo }}
     steps:
       - env:
-          MESSAGE: ${{ github.event.client_payload.foo }}
-        run: echo hai
+          RELEASE_ID: ${{ github.event.release.id }}
+        run: echo $RELEASE_ID
