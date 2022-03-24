@@ -92,6 +92,7 @@ data "azurerm_key_vault_secret" "secretpass" {
   key_vault_id = data.azurerm_key_vault.keyvault[0].id
 
 
+ ]
 
 }
 
